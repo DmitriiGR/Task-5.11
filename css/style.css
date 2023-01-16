@@ -8,7 +8,7 @@ header {
     align-items: center;
     justify-content: center;
     height: 400px;
-    background-color: url('https://unsplash.com/photos/9BOmF9--EZk') bottom no-repeat;
+    background: url('https://unsplash.com/photos/9BOmF9--EZk') bottom no-repeat;
     background-size: cover;
 }
 
@@ -54,6 +54,12 @@ article img{
     height: 300px;
     object-fit: cover;
 }
+
+article:nth-child(even) {
+  background: purple;
+}
+
+
 
 footer{
     padding-top: 20px;

@@ -8,7 +8,7 @@ header {
     align-items: center;
     justify-content: center;
     height: 400px;
-    background: url('https://unsplash.com/photos/9BOmF9--EZk') bottom no-repeat;
+    background: url('https://images.unsplash.com/photo-1673886138232-e792a8839827?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60') bottom no-repeat;
     background-size: cover;
 }
 
@@ -59,7 +59,9 @@ article:nth-child(even) {
   background: purple;
 }
 
-
+.box::before {
+   content:'New ';
+}
 
 footer{
     padding-top: 20px;
